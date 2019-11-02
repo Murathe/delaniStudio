@@ -1,5 +1,8 @@
-body{
+*{
     text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .header{
@@ -9,22 +12,67 @@ body{
     margin: 0;
     padding: 0;
 }
-#contact{
+
+#about-t{
+    margin: 5vh 0;
+}
+
+#about-b{
+    font-size: 20px;
+}
+
+#services{
+    background-image: url(../images/backgrounds/s_image.jpg);
+    margin: 5vh 0;
+    padding: 8vh 10vh;
+    color: white;
+}
+
+#services > p{
+    font-size: 20px;
+}
+
+.contact_form{
     background-image: url("../images/backgrounds/c_image.jpg");
-    margin: 0 auto;
+    margin: 5vh 0;
 }
 
-form{
-    width: 60%;
+#head{
+    padding-top: 10vh;
+    font-size: 4vh;
+    color: white;
 }
 
-input [type=text]{
-    width: 10vw;
-}
-
-form textarea{
+input[type=text]{
     background: transparent;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: 2px white solid;
+}
+
+input[type=email]{
+    background: transparent;
+    margin-top: 20px;
+    border: 2px white solid;
+}
+
+textarea{
+    padding: 5vh auto;
+    margin: 5vh auto;
+    background: transparent;
+    border: 2px white solid;
+}
+
+::placeholder{
+    color: white;
+}
+
+#send{
+    margin-bottom: 20px;
+    color: black;
+    width: 5vw;
+}
+
+#footer{
     margin-top: 2vh;
-    margin-bottom: 5vh;
-    width: 100px;
 }
