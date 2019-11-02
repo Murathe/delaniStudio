@@ -8,9 +8,20 @@
 .header{
     background-image: url("../images/backgrounds/h_img.jpg");
     background-attachment: fixed;
-    height: 80vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+    line-height: 8vh;
+}
+
+#header-one{
+    padding-top: 40vh;
+    padding-bottom: 20vh;
 }
 
 #about-t{
@@ -24,8 +35,9 @@
 #services{
     background-image: url(../images/backgrounds/s_image.jpg);
     margin: 5vh 0;
-    padding: 8vh 10vh;
+    padding: 8vh 20vh;
     color: white;
+    line-height: 5vh;
 }
 
 #services > p{
