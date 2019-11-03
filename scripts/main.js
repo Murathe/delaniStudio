@@ -1,15 +1,15 @@
-// $(document).ready(html)function({
-//     $("");
-// })
-
-function onclick() {
-    const name =  document.getElementById("name");
-    const email =  document.getElementById("email");
-
-
-    if (name == "" || email = "") {
-        alert("Please enter your details");
-    } else {
-        alert("Thank you for contacting unescape, we'll be intouch.");
-    }
-}
+$(document).ready(function(){
+    $(".to-toggle p").hide();
+    $("#design").click(function(){
+        $("#design p").toggle();
+        $("#design img").toggle();
+    });
+    $("#dev").click(function(){
+        $("#dev p").toggle();
+        $("#dev img").toggle();
+    });
+    $("#prod").click(function(){
+        $("#prod p").toggle();
+        $("#prod img").toggle();
+    });
+});
